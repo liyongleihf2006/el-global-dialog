@@ -1,7 +1,8 @@
 {
   "name": "el-global-dialog",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "liyongleihf2006",
   "files": [
     "src",
     "dist"
