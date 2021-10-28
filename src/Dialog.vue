@@ -60,19 +60,27 @@ export default {
     },
     open: {
       type: Function,
-      default: null
+      default(){
+        return ()=>{}
+      }
     },
     opened: {
       type: Function,
-      default: null
+      default(){
+        return ()=>{}
+      }
     },
     close: {
       type: Function,
-      default: null
+      default(){
+        return ()=>{}
+      }
     },
     closed: {
       type: Function,
-      default: null
+      default(){
+        return ()=>{}
+      }
     },
     message: {
       type: Function,
