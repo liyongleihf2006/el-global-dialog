@@ -217,19 +217,35 @@ var external_element_ui_ = __webpack_require__("5f72");
     },
     open: {
       type: Function,
-      default: null
+
+      default() {
+        return () => {};
+      }
+
     },
     opened: {
       type: Function,
-      default: null
+
+      default() {
+        return () => {};
+      }
+
     },
     close: {
       type: Function,
-      default: null
+
+      default() {
+        return () => {};
+      }
+
     },
     closed: {
       type: Function,
-      default: null
+
+      default() {
+        return () => {};
+      }
+
     },
     message: {
       type: Function,
