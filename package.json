@@ -1,12 +1,14 @@
 {
   "name": "el-global-dialog",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "private": false,
   "author": "liyongleihf2006",
   "files": [
     "src",
-    "dist"
+    "dist",
+    "types"
   ],
+  "typings": "types/index.d.ts",
   "homepage": "https://liyongleihf2006.github.io/el-global-dialog-docs/",
   "keywords": [
     "element",
