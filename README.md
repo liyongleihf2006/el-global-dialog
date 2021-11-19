@@ -1,5 +1,11 @@
 #### $dialog
 使用`this.$dialog`的形式使用`el-dialog`
+##### 文档地址
+[el-global-dialog开发文档](https://liyongleihf2006.github.io/el-global-dialog-docs/)
+##### 安装
+```js
+npm install --save el-global-dialog
+```
 ##### 使用方法
 ```js
 import 'el-global-dialog'
